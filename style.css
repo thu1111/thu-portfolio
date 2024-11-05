@@ -4,8 +4,11 @@
     padding: 0;
 }
 body {
-    background-color: skyblue;
+    background-color: #bef7e2;
+    height: 100vh;
 }
+
+/* Navigation Bar */
 nav {
     width: 100%;
     position: sticky;
@@ -15,14 +18,16 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: red;
+    background-color: #333;
 }
 
 .navh1 h1 {
     /* display: block; */
     float: left;
-    padding: 10px;
-    background-color: gray;
+    padding: 9px;
+    background-color: #333;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -31,12 +36,57 @@ ul {
     float: right;
     text-decoration: none;
     padding: 15px;
-    background-color: green;
+    background-color: #029962;
+    color: white;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif
 }
 
 .navli a:hover {
     text-decoration: underline;
-    background-color: greenyellow;
+    background-color: #36bd8c;
+}
+
+/* Description + Profile Image */
+.container {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    background-color: #018768;
+}
+.childcontainer1{
+    width: 100%;
+    height: 30%;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.childcontainer1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.description {
+    width: 70%;
+    float: left;
+    padding: 5px;
+}
+.description h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px 0px;
+}
+
+.profileimg {
+    width: 30%;
+    float: right;
+    padding: 5px;
+}
+
+.quote {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 100px;
+    color: white;
+    text-shadow: 0px 1px 1px #000000;
+    font-size: 150%;
 }

@@ -6,24 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thu Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <nav>
-        <ul>
-            <li class="navli"><a href="./portfolio.html">Portfolio</a></li>
-            <li class="navli"><a href="./about.html">About</a></li>
-            <li class="navh1">
-                <h1>Thu Yein Tun</h1>
-            </li>
-            <li class="navli"><a href="./index.html">Home</a></li>
-        </ul>
+        <div id="logo">
+            <h1>Thu Yein Tun</h1>
+        </div>
+        <div id="links">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./portfolio.html">Portfolio</a>
+            <a href="./contact.html">Contact</a>         
+        </div>
     </nav>
 
     <section>
-        <h1>This is protfolio</h1>
+        <div class="container">
+            <p id="portfolioheader">Things I've built, in no particular order...</p>
+
+            <div class="portfoliocontent">
+                <h4 class="portfoliohead">E-Commerce Web Application</h4>
+                <img id="portfolioimg1" src="./images/codingteamwork.jpg" alt="">
+                <p class="portfolioparagraph">Developed a full-stack e-commerce web application using React, Node.js, and
+                    MongoDB. Implemented features such as product browsing, shopping cart, checkout, and user
+                    authentication. Utilized RESTful APIs for seamless data communication between the front-end and
+                    back-end.
+                </p>
+            </div>
+
+
+            <div class="portfoliocontent">
+                <h4 class="portfoliohead">AI-Powered Recommendation System</h4>
+                <img id="portfolioimg2" src="./images/dailylife.jpeg" alt="">
+                <p class="portfolioparagraph">Built an AI-powered recommendation system using Python and machine learning
+                    algorithms. Trained the model on a large dataset to provide personalized product recommendations to
+                    users. Integrated the system into a web application using Flask to deliver dynamic recommendations.
+                </p>
+            </div>
+
+
+
+
+            <div class="portfoliocontent">
+                <h4 class="portfoliohead">Image Processing Web Application</h4>
+                <img id="portfolioimg3" src="./images/fullstackdev.jpg" alt="">
+                <p class="portfolioparagraph">
+                    Developed a web application that allows users to upload images and apply various image processing
+                    filters and transformations. Utilized libraries like OpenCV and Pillow to handle image manipulation
+                    on the server-side, and created an intuitive user interface with React on the front-end.
+                </p>
+            </div>
+
+        </div>
     </section>
+
+
+    <footer>
+        <h5>Copyright@2024</h5>
+    </footer>
 </body>
-<script src="javascript.js"></script>
 
 </html>
